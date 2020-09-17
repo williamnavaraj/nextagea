@@ -15,18 +15,11 @@
   </joint>
 
   <link name="d435_Mount_Link">
-    <!-- <visual>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
-        <geometry>
-            <sphere radius="0.001"/>
-        </geometry>
-        <material name="DarkGrey"/>
-    </visual> -->
-    <!-- <inertial>
+    <inertial>
         <mass value="0.01"/>
         <origin rpy="0 0 0" xyz="0 0 0"/>
         <xacro:sphere_inertia_def radius="0.02" mass="0.01"/>
-    </inertial> -->
+    </inertial>
   </link>
 
   <xacro:sensor_d435 name="/nextagea/realsense" parent="d435_Mount_Link">
