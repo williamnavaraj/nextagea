@@ -9,7 +9,7 @@
 
   <!-- Attach the RealSense D435 -->
   <joint name="d435_mount_joint" type="fixed">
-      <origin xyz="0 0 0.16" rpy="0 0 0"/>
+      <origin xyz="0 0 0.165" rpy="0 0.325 0"/>
       <parent link="HEAD_JOINT1_Link"/>
       <child link="d435_Mount_Link"/>
   </joint>
