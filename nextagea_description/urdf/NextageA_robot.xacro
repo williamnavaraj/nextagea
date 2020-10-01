@@ -3,8 +3,8 @@
 
   <xacro:include filename="$(find nextagea_description)/urdf/common.xacro" />
 
-  <xacro:property name="namespace" default="/nextagea/" />
-  <xacro:property name="nextagea_gazebo_ros_control" default="true" />
+  <xacro:property name="namespace" value="/nextagea/" />
+  <xacro:property name="nextagea_gazebo_ros_control" value="true" />
 
   <xacro:gazebo_nx_link name="WAIST" color="Black" />
   <link name="WAIST">
