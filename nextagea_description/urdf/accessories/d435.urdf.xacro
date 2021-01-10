@@ -7,7 +7,7 @@ aluminum peripherial evaluation case.
 Modified by Adabotics for the D435 (lower size mesh, fixed visuals).
 -->
 
-<robot name="sensor_d435" xmlns:xacro="http://ros.org/wiki/xacro">
+<robot name="sensor_d435" xmlns:xacro="http://www.ros.org/wiki/xacro">
   <xacro:macro name="sensor_d435" params="name parent *origin">
     <!-- The following values are approximate, and the camera node
      publishing TF values with actual calibrated camera extrinsic values -->
