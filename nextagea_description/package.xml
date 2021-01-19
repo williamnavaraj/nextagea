@@ -1,8 +1,8 @@
-<package>
+<package format="2">
   <name>nextagea_description</name>
   <version>1.0.0</version>
   <description>nextagea_description package</description>
-  <maintainer email="v.ivan@ed.ac.uk">Vladimir Ivan</maintainer>
+  <maintainer email="williamnavaraj@gmail.com">William Navaraj</maintainer>
   <license>BSD</license>
   <author email="k-okada@jsk.t.u-tokyo.ac.jp">Kei Okada</author>
   <author email="iiysaito@opensource-robotics.tokyo.jp">Isaac I. Y. Saito</author>
@@ -10,5 +10,6 @@
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>xacro</build_depend>
-  <run_depend>xacro</run_depend>
+  <exec_depend>xacro</exec_depend>
+  <depend>realsense2_description</depend>
 </package>
